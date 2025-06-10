@@ -26,7 +26,7 @@ using namespace std;
         int func() {
         
             // Static variable
-            static int count = 0;
+            static int count = 0;     
             count++;
             return count;
         }
@@ -34,7 +34,15 @@ using namespace std;
 int main()
 {
       cout << func() << "\n";
+
+    /*if it was not an static initialization it should be again give output 0 but now it will give 1 because 
+    count can only be initalized once throughout the program
+        */
       cout << func();
+
+
+
+
 
 
     return 0;
