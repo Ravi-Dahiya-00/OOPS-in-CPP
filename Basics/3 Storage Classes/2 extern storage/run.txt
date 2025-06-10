@@ -1,0 +1,48 @@
+===========================
+How to Run the Extern Storage Class Program in C++
+===========================
+
+📁 Files Required:
+1. def.c++                -> Contains the definition of the global variable
+2. 2_extern_storage.c++   -> Uses the extern keyword and contains the main function
+
+---------------------------
+🔹 File: def.c++
+---------------------------
+int x = 10;  // Define the global variable (no main function here)
+
+---------------------------
+🔹 File: 2_extern_storage.c++
+---------------------------
+#include <iostream>
+using namespace std;
+
+extern int x;  // Declaration: x is defined in another file
+
+int main() {
+    cout << x;
+    return 0;
+}
+
+---------------------------
+🛠️ Steps to Compile and Run (Windows PowerShell)
+---------------------------
+
+1️⃣ Open PowerShell and navigate to your folder:
+cd "C:\MY Coding\C++ OOPS\Basics\3 Storage Classes\2 extern storage"
+
+2️⃣ Compile both files together:
+g++ def.c++ 2_extern_storage.c++ -o output.exe
+
+3️⃣ Run the compiled executable:
+.\output.exe
+
+---------------------------
+✅ Expected Output:
+10
+---------------------------
+
+📌 Notes:
+- `def.c++` should NOT contain a `main()` function.
+- `2_extern_storage.c++` must contain the `main()` function and use `extern int x;`.
+- `extern` tells the compiler that the variable exists in another file.
