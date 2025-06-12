@@ -1,0 +1,7 @@
+Remaining topics in C++ OOPS 
+
+1.	    learn Const Qualifier (in  2 variables and constraints  1_variable.c++)
+2.	    Variations of Scopes in C++ ( in  2 variables and constraints  in    4_variable_scope.c++)
+3.	    Mutable storage class (in 3 storage class in last 5 mutable storage class)
+4.	    thread_local Storage Class (in 3 storage class in last 6 thread local storage class)
+5.	    
