@@ -154,8 +154,85 @@ int main()
 
 
         // 3. Character Literals
-              /**/
+              /*
+                This refers to the literal that is used to store a single character within a single quote.
+                 To store multiple characters, one needs to use a character array. Storing more than one 
+                 character within a single quote will throw a warning and display just the last character 
+                 of the literal. It gives rise to the following two representations:
+
+                        char type: This is used to store normal character literal or narrow-character literals.
+    
+                        */
+
+                            // constant char literal
+                            const char charVal = 'A';
+            
+                
+
+                /* 
+     Escape Seq | Name / Symbol      | ASCII Value | Purpose / Use Case                                                                        |
+    | ---------- | ------------------ | ----------- | ----------------------------------------------------------------------------------------- |
+    | `\n`       | Newline            | 10          | Moves the cursor to the next line. <br>📌 Used for printing output in multiple lines.     |
+    | `\t`       | Horizontal Tab     | 9           | Adds a tab (like 4-8 spaces). <br>📌 Used for indentation/aligned output.                 |
+    | `\\`       | Backslash (`\`)    | 92          | Prints a backslash. <br>📌 Used when you need to show a file path like `C:\\Program`.     |
+    | `\'`       | Single Quote (`'`) | 39          | Prints a single quote. <br>📌 Used inside single-quoted characters.                       |
+    | `\"`       | Double Quote (`"`) | 34          | Prints a double quote. <br>📌 Used inside double-quoted strings.                          |
+    | `\0`       | Null Character     | 0           | Indicates the end of a C-style string. <br>📌 Used in character arrays to terminate them. |
+    | `\r`       | Carriage Return    | 13          | Moves cursor to beginning of the current line. <br>📌 Rarely used in modern systems.      |
+    | `\b`       | Backspace          | 8           | Moves cursor one space back. <br>📌 Can erase previous characters in console output.      |
+    | `\a`       | Alert/Bell         | 7           | Produces a beep sound. <br>📌 Useful in old console programs to alert the user.           |
+    | `\f`       | Form Feed          | 12          | Moves cursor to the next page (not common today). <br>📌 Used in printers historically.   |
+    | `\v`       | Vertical Tab       | 11          | Moves the cursor vertically. <br>📌 Rarely used.                                          |
+*/
+
+
+
+            cout << "Line 1\nLine 2" << endl;        // Prints Line 1 and Line 2 in separate lines
+            cout << "Tab\tSpace" << endl;            // Adds space between Tab and Space
+            cout << "Path: C:\\Users\\Ravi" << endl; // Shows correct file path
+            cout << "He said: \"Hi\"" << endl;       // Prints: He said: "Hi"
+
+
+
+
+
+
+            char ch1 = 'A';      // Uppercase letter
+            char ch2 = '9';      // Digit as character
+            char ch3 = '$';      // Special character
+            char ch4 = ' ';      // Space character
+
+            cout << ch1 << endl;
+            cout << ch2 << endl;
+            cout << ch3 << endl;
+            cout << ch4 << endl;
+
+
+
+
+
+
+
+
+
+
+
+            // 4. String Literals
+                    /*
+                    String literals are similar to that character literals, except that they can store
+                     multiple characters and uses a double quote to store the same. It can also accommodate 
+                     the special characters and escape sequences mentioned in the table above. We can break 
+                     a long line into multiple lines using string literal and can separate them with the help 
+                     of white spaces.
+                                    */
+
+
+            const char str[] = "Welcome\nTo\nGeeks\tFor\tGeeks";
+
+            cout << str;
+
+            
+
 
             
 }
-
