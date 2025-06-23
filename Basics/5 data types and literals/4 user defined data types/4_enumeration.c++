@@ -13,13 +13,23 @@ using namespace std;
 
         
 
+
 int main()
 {
     	// Creating enum variable
         enum Week day;
 
         	// Assigning value to the variable
-             day = Wed;
+             day = Wed;           
 
-             cout << day << endl;
+             cout << day << endl;  
+
+
+
+
+             /*
+             Enum values are stored as integers.
+            You can’t directly print the name (like "Wed") — it prints the int value.
+            You can use arrays or switch-case to map names to values.
+                */
 } 
