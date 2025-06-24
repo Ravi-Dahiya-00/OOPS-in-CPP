@@ -23,14 +23,20 @@ int main()
                         */
 
                 // It can be used only with integer and character data types.
-
+                cout << "signed Modifier: " << endl;
             signed int a=10;
             cout << a << endl;
             cout << "Signed int size: " << sizeof(signed int) << " bytes " << endl;
             cout << "Int size: " << sizeof(int) << " bytes " << endl;
 
-
+                        
             // Note: The int datatype is signed by default. So, int can directly be used instead of signed int.
+        
+            cout << "\n \n \n";
+
+
+
+
 
 
 
@@ -41,6 +47,7 @@ int main()
                     Like signed modifier, it is also added at the start of the variable declaration to define the given
                     variable as unsigned.
                             */
+                cout << "unsigned Modifier: " << endl;
 
 
               	// Declaring unsigned integer with negative value
@@ -63,7 +70,74 @@ int main()
                     cout << "unsigned int size: " << sizeof(unsigned_i) << " bytes" << endl;
                     cout << "i: " << i << endl;
                     cout << "int size: " << sizeof(i) << endl;
-                    
+
+
+            cout << "\n \n \n";
+
+
+        
+
+
+
+
+
+        // 3. short Modifier
+                        /*
+                        The short keyword decreases the size of the data type in the memory. It leads to the decrease
+                         in the range of value that the given data type can store. A variable can be declared as short
+                          by adding the short keyword before the variable declaration.
+                                        */
+
+
+                // The short keyword can only be used with integer data type.
+                // Note: The short int can be written as short also. They are equivalent.
+
+
+                cout << "short Modifier: " << endl;
+
+                
+                // Printing the size of short and normal ints
+                        cout << "short int size: " << sizeof(short int) << " bytes" << endl;
+                        cout << "int size: " << sizeof(int) << " bytes" << endl;
+
+
+            cout << "\n \n \n";
+
+                
+        
+
+
+                
+
+        // 4. long Modifier
+                        /*
+                        The long keyword increases the size of the data type in memory. It leads to increase in the range 
+                        of value that the given data type can store. A variable can be declared as long by adding the long 
+                        keyword before the variable declaration.
+                                */
+                cout << "long Modifier: " << endl;
+                        
+
+
+             // The long modifier can be used with integer and double data type. It can also be used twice on integers.
+
+
+                        // Printing the size of long and normal ints
+  	                // double and long double
+
+                        cout << "int size: " << sizeof(int) << " bytes" << endl;
+                        cout << "long int size: " << sizeof(long int) << " bytes" << endl;
+                        cout << "double size: " << sizeof(double) << " bytes" << endl;
+                        cout << "long double size: " << sizeof(long double) << " bytes" << endl;
+
+
+
+                // Note: The long int can be written as long also. They are equivalent.
+
+
+                
+
+
 
 
 }
