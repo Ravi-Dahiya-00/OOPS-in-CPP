@@ -10,3 +10,6 @@ Remaining topics in C++ OOPS
 8.      numeric_limits<> in 5-->5 data type range and macros
 9.      C++ Style Typecasting 5-->7,8 type conversion 
 10.     Miscellaneous Operators 6 --> Operators
+11.     operator precedence and associativity 6 --> Operators
+12.      Difference between cerr and clog 7 --> basic input output
+13.     Standard Error Stream Object 7 --> basic input output
