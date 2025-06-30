@@ -31,4 +31,43 @@ int main()
         }
     }
 
+
+     /*
+        In general, the Switch case statement evaluates an expression, and depending on the value of the expression,
+         it executes the statement associated with the value. Not only that, all the cases after the matching case
+          after the matching case will also be executed. To prevent that, we can use the break statement
+           in the switch case as shown:
+
+            */
+
+
+                char c;
+    float x, y;
+
+    while (1) {
+        cout << "Enter an operator (+, -), if want to exit "
+               "press x: ";
+        cin >> x;
+        // to exit
+        if (c == 'x')
+            exit(0);
+
+       cout <<"Enter Two Values:\n " << endl;
+        cin >> x >> y;
+
+        switch (c) {
+            
+        // For Addition
+        case '+':
+            cout  << x + y << endl;
+            break;
+            
+        // For Subtraction
+        case '-':
+            cout << (x - y) << endl;
+            break;
+        default:
+            cout << "Error! please write a valid operator\n";
+        }
+    }
 }

@@ -31,4 +31,17 @@ int main()
                 cout << i << endl;
              }
         }
+
+
+
+        /*
+        break vs continue
+            The primary difference between the break and continue statements is that by using break statement,
+             we terminate the smallest enclosing loop (e.g, a while, do-while, for, or switch statement).
+              On the other hand, by using the continue statement, we only skip the current iteration 
+              of the loop and execute the next iteration.
+
+                      */
+
+                  
 }
