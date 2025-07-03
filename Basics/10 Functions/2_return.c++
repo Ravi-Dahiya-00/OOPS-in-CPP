@@ -40,7 +40,7 @@ int main()
 
         // Call the function and store the result
         int res=add(5,7);
-        cout << res;
+        cout << res << endl;
 
 
 

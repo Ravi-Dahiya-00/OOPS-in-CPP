@@ -13,3 +13,4 @@ Remaining topics in C++ OOPS
 11.     operator precedence and associativity 6 --> Operators
 12.      Difference between cerr and clog 7 --> basic input output
 13.     Standard Error Stream Object 7 --> basic input output
+14.     Functions remaining some topics 10 --> Functions
