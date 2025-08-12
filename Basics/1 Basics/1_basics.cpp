@@ -47,7 +47,7 @@ int main()
     cout << "Learning C++ at GeekforGeeks" << endl;
     // cout: Stands for "character output", and is used to print output to the console. It comes from the std namespace.
     // endl: Stands for "end line", which moves the cursor to the next line, just like \n.
-    // <<: This is the insertion operator, which sends data to the output stream (in this case, to cout).
+    // <<  : This is the insertion operator, which sends data to the output stream (in this case, to cout).
 
 
 

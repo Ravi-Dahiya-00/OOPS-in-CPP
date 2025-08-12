@@ -9,11 +9,7 @@ using namespace std;
                  variable is created in a different scope or file and can be used in a different file as well.
                         */
 
-           /*
-           The extern storage class simply tells us that the variable is defined elsewhere and not within 
-           the same scope (or even source file) where it is used (i.e. external linkage). Basically,
-            the variable is created in a different scope or file and can be used in a different file as well.
-                        */
+         
 
             /*
             Properties of extern Storage Class Objects

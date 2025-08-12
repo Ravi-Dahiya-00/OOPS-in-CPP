@@ -60,8 +60,8 @@ int main()
 
 
         // Changing value of global from main function before calling display()
-    global = 10;
-    display();
+            global = 10;
+            display();
 
     // a global variable and can be accessed or updated from anywhere in the program.  
 

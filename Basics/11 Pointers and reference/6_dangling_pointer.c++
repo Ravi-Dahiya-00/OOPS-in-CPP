@@ -38,5 +38,6 @@ int main(){
             cout << *ptr;        // ❌ Dangling: using pointer after delete
 
 
+            
 
 }
