@@ -39,10 +39,49 @@ int main()
                 // A reference must be initialized when declared.
                 // After being set, it cannot be changed to refer to another variable.
 
+                // myref = x;    ❌ This assigns value of b to a, not rebind reference
+
+
+
+                int a = 100;
+                int* p = &a;
+                int& r = *p;
+
+                r = 200;
+                cout << a << " ";   // prints 200
+
+                // ref is still a reference to a
+                // The statement ref = b; means assign the value of b (10) to a
+                r = y;       // ❌ does NOT rebind r to y
+                cout << r << " ";
 
 
 
                 // Pointers vs References
+
+/*
+| Feature                                         | Pointer                            | Reference                                                  |
+| ----------------------------------------------- | ---------------------------------- | ---------------------------------------------------------- |
+| Definition                                      | Stores address of another variable | Alias for another variable                                 |
+| Declaration                                     | `int *p = &x;`                     | `int &ref = x;`                                            |
+| Can it be NULL?                                 | ✅ Yes                              | ❌ No                                                       |
+| Can it be changed to point to another variable? | ✅ Yes                              | ❌ No (once assigned)                                       |
+| Must be initialized when declared?              | ❌ No                               | ✅ Yes                                                      |
+| Syntax to access value                          | `*p`                               | Directly `ref`                                             |
+| Memory                                          | Takes its own space                | Does not take new space (same memory as original variable) |
+  
+
+
+
+
+| Action                           | Pointer            | Reference         |
+| -------------------------------- | ------------------ | ----------------- |
+| Can point to a new variable      | ✅ Yes (`p = &b;`)  | ❌ No              |
+| Can assign new value to variable | ✅ Yes (`*p = 10;`) | ✅ Yes (`r = 10;`) |
+| Can be null                      | ✅ Yes              | ❌ No              |
+| Must initialize when declared    | ❌ No               | ✅ Yes             |
+
+*/
 
                 
 }

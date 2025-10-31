@@ -6,7 +6,7 @@ using namespace std;
         Data types specify the type of data that a variable can store. Whenever a variable is defined in C++, 
         the compiler allocates some memory for that variable based on the data type with which it is declared 
         as every data type requires a different amount of memory.
-            */
+            */ 
     
     // C++ supports a wide variety of data types, and the programmer can select the data type appropriate to the needs of the application.
 
@@ -136,8 +136,31 @@ int main()
 
 
 
-        
 
+   // wchar_t — Wide Character Type 
+                /*
+                        It’s the most common wide character data type in C++.
+                        Size is usually 2 bytes (Windows) or 4 bytes (Linux/Unix).
+                        Can store characters from extended character sets like Unicode.
+                        Used when char is not enough to store a character.
+                                */
+        wchar_t wch = L'अ';  // L before the character makes it wide
+        wcout << L"Wide Character: " << wch << endl;
+
+        /*
+                Use L before the character or string to indicate a wide literal (e.g., L'X' or L"Hello").
+                Use wcout instead of cout for wide characters.  
+                        */
+
+        // These are fixed-width Unicode character types:
+                        // char16_t → 2 bytes (UTF-16)
+                        // char32_t → 4 bytes (UTF-32)
+
+
+        char16_t c16 = u'ह';  // UTF-16 character literal
+        char32_t c32 = U'ह';  // UTF-32 character literal
+
+        cout << "UTF-16 and UTF-32 characters stored successfully." << endl;
 
 
         // Type Safety in C++

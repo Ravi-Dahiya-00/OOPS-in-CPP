@@ -95,7 +95,7 @@ int main()
                 */
 
         int outerChoice = 1;
-    int innerChoice = 2;
+        int innerChoice = 2;
 
     // Outer switch to choose the category
     switch(outerChoice) {

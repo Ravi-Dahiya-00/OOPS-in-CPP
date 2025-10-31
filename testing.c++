@@ -1,19 +1,14 @@
 #include <iostream>
 using namespace std;
 
-int main()
-{
-     int arr[5] = {1,2,3,4,5};
+void printTable(int n) { 
+  for (int i = 1; i <= 10; ++i) 
+        cout << n << " * " << i << " = "  
+             << n * i << endl;
+}
 
-                 arr[0]=9;
-                 arr[1]=-8;
-                 arr[3]=arr[0];
-
-                 
-                 for (int i=0;i<=5;i++)
-                 {
-                    cout << arr[i] << endl;
-                 }
-
-
+int main() {
+    int n = 5;  
+    printTable(n);
+    return 0;
 }

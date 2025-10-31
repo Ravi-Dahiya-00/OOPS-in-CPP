@@ -20,7 +20,6 @@ class gfg {
 
         // Access specifier
             public:
-                
                     // Data Member
                         string name;
 

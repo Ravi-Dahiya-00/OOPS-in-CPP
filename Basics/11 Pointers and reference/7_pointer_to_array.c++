@@ -68,7 +68,7 @@ int main(){
 
              // Program to Traverse Whole Array using Pointer
 
-             cout << "\nProgram to Traverse Whole Array using Pointer " << endl;
+             cout << "\nProgram to Traverse Whole Array using Pointer " << endl; 
 
              int size=5;
              int arr2[size]={1,2,3,4,5};

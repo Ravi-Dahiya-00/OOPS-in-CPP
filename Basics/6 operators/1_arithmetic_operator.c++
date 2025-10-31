@@ -16,12 +16,12 @@ int main()
         // C++ Operator Types
             // C++ operators are classified into 6 types on the basis of type of operation they perform:
                         /*
-                        1. Arithmetic Operators
-                        2. Relational Operators
-                        3. Logical Operators
-                        4. Bitwise Operators
-                        5. Assignment Operators
-                        6. Ternary or Conditional Operators
+                        1. Arithmetic Operators    -->binary operator
+                        2. Relational Operators    -->binary operator
+                        3. Logical Operators      -->binary operator
+                        4. Bitwise Operators       -->binary operator
+                        5. Assignment Operators    -->binary operator
+                        6. Ternary or Conditional Operators  --> Ternary operator 
                                 */
 
 

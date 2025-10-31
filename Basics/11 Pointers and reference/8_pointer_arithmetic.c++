@@ -53,8 +53,6 @@ int main()
            /*
               We can add integer values to Pointers and the pointer is adjusted based on the size of the data type
                it points to. For example, if an integer pointer ptr stores the address 1000 and we add the value 5 to the pointer,
-
-
                     ptr + 5
                     1000 + (5 * 4(size of an integer)) = 1020
 
@@ -80,7 +78,7 @@ int main()
         int n2 = 100;
         int *ptr4 = &n2;
 
-        cout << "Address stored in ptr: " << ptr4 << endl;
+        cout << "Address stored in ptr4: " << ptr4 << endl;
 
 
             // Subtracting the integer value 1 from pointer ptr
@@ -163,7 +161,7 @@ int main()
                 cout << "No Value is Pointed" << endl;
             }
             else {
-                cout << *ptr << endl;
+                cout << "hii "<< *ptr << endl;
             }
 
 }

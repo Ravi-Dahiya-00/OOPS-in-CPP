@@ -12,7 +12,10 @@ int main()
                         2. To check if a pointer is valid before using it
                         3. To avoid wild pointers
 
+        To avoid wild pointers (uninitialized pointers) and check safety before accessing memory.
 
+            A wild pointer is dangerous because it’s random.
+            A null pointer is safe because it clearly says “I point to nothing.”
                     */
 
 

@@ -61,7 +61,7 @@ int main()
             /*
               The ifstatement alone tells us that if a condition is true, it will execute a block of statements and 
               if the condition is false, it won’t. But what if we want to do something else when the condition is false?
-               Here comes the C elsestatement. We can use the elsestatement with the ifstatement to execute a block of code
+               Here comes the  else statement. We can use the else statement with the if statement to execute a block of code
                 when the condition is false. The if-else statement consists of two blocks, one for false expression and
                  one for true expression.
                             */

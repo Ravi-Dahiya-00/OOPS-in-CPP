@@ -47,7 +47,7 @@ int main()
             
 
 
-        // Standard Input Stream - cin
+        // Standard Input Stream - cin 
              /*
                 The C++ cin statement is the instance of the class istream and is used to read input from the standard 
                 input device which is usually a keyboard. The extraction operator (>>) is used along with the object cin

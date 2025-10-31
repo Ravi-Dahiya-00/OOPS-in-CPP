@@ -10,7 +10,7 @@ using namespace std;
         // Declaration of union is same as the structures
         union A {
         int i;
-                char c;
+        char c;
         };
 
 int main()

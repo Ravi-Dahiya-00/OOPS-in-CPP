@@ -15,6 +15,7 @@ void print (void *ptr , char type){
         cout << "Unknown Type" << endl;
 
 }
+
 int main()
 {
         // Void Pointers
@@ -60,3 +61,29 @@ int main()
         print(&z , 'q');
 
 }
+
+/*| Concept                | Meaning                                                      | Example    |
+| ---------------------- | ------------------------------------------------------------ | ---------- |
+| **Void Pointer**       | Generic pointer that can store address of any data type      | `void* p;` |
+| **Dereferencing**      | Must be typecast first                                       | `*(int*)p` |
+| **Pointer arithmetic** | ❌ Not allowed                                                | —          |
+| **Used in**            | Generic functions, dynamic memory (`malloc`), low-level code | —          |
+
+
+⚠️ Limitations of Void Pointers
+| Limitation                          | Explanation                             |
+| ----------------------------------- | --------------------------------------- |
+| ❌ Cannot be dereferenced directly   | Must be typecast first                  |
+| ❌ Cannot perform pointer arithmetic | Because compiler doesn’t know type size |
+| ❌ Can cause runtime errors          | If wrongly cast to wrong type           |
+
+
+
+
+| Part          | Meaning                                                       |
+| ------------- | ------------------------------------------------------------- |
+| `(int*)ptr`   | Typecasts the `void*` to `int*`                               |
+| `*(int*)ptr`  | Dereferences it → gets the actual `int` value                 |
+| Dereferencing | Accessing the **value** stored at the address a pointer holds |
+
+*/

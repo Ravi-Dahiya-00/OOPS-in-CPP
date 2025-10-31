@@ -40,7 +40,8 @@ void func() {
     // This variable is local to function func() and
   	// cannot be accessed outside this function
     int age = 18;
-    cout << age;
+    cout << age << endl;
+    cout << global;
 }
 
 
