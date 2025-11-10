@@ -28,7 +28,6 @@ public:
                             // Here, the compiler gives priority to the local parameter, not the class variable.
                             // → The compiler would assign the parameter to itself, doing nothing.
                             // → The data member remains unchanged (garbage value).
-
     }
 };
 int main(){

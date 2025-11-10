@@ -25,9 +25,7 @@ public:
 };
 
 int main() {
-    Rectangle rect[5];   // Array of 5 Rectangle objects
-    // int n;
-    // cin>>n;
+    Rectangle rect[3];   // Array of 3 Rectangle objects
 
     cout << "\n--- Rectangle Details ---\n";
     for (int i = 0; i < 3; i++) {
