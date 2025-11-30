@@ -67,5 +67,5 @@ int main(){
 | `.erase(pos, len)`               | `s.erase(2, 3);`          | Delete part of string         |
 | `.compare(str2)`                 | `s1.compare(s2)`          | 0 if equal, +ve/-ve otherwise |
 | `.swap(s2)`                      | `s1.swap(s2);`            | Swap contents                 |
-                        
+
 */

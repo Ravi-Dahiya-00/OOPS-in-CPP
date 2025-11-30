@@ -41,12 +41,12 @@ public:
 // ✅ Define getter outside class
 string Student::getName() {
     return name;
-}
+};
 
 // 🔹 Outside Function that accepts object by VALUE
 void printByValue(Student s) {
     cout << "[Outside Function - Value] Name: " << s.getName() << endl;
-}
+};
 
 int main() {
     Student s1("Ravi", 19);

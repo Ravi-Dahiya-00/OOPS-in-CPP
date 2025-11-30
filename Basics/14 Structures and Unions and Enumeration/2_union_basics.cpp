@@ -87,6 +87,9 @@ int main(){
     data.firstLetter = 'N';
     cout << data.firstLetter << endl;
 
+    cout << data.rollNo << endl;
+
+
 
 
 

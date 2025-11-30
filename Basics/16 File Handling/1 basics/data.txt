@@ -1,0 +1,4 @@
+Ravi is learning File Handling.
+This is the first line written to the file.
+C++ makes file handling easy!
+This line is appended to the file.

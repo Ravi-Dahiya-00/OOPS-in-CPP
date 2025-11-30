@@ -11,7 +11,6 @@ Its main job is to initialize the data members of that object.
 ✅ To avoid uninitialized or garbage values*/
 class Student {
     
-
 public:
     string name;
     int age;
@@ -64,23 +63,28 @@ int main() {
     s3.display();
 
 
+    // Student s6={"Yadav"};        // Single-parameter constructor
+    // s6.age=131;                 //overwriting the data member
+    // s6.display();
+
+
     Student s4 = s2;           // Copy
     s4.display();
 
     s4.name="Durgesh";        // deep copy --> it is not changed at base position
     s4.display();
+    s2.display();
 
 
     Student s5(s3);         //copy constructor  --> deep copy
     s5.display();
    s5.name="Manish"; 
     s5.display();
+    s3.display();
 
 
 
-    Student s6={"Yadav"};        // Single-parameter constructor
-    s6.age=131;                 //overwriting the data member
-    s6.display();
+ 
 
 
 

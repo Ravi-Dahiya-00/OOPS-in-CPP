@@ -13,8 +13,7 @@ using namespace std;
 
 void fun()
 {
-    class Test // local to fun
-    {
+    class Test {       // local to fun
     public:
         // Fine as the method is defined
         // inside the local class

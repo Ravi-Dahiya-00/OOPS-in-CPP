@@ -77,6 +77,7 @@ int main() {
 
     // Call member function using (.) operator
     cout << s.sum() << endl;
+    cout << s.x << endl;
 
 
 

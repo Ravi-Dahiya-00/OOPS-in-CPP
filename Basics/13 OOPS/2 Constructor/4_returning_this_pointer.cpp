@@ -40,3 +40,10 @@ int main() {
     Student s;
     s.setName("Ravi").setAge(19).display();
 }
+
+
+/*
+It returns the same current object
+It allows chaining
+It avoids unnecessary copies
+It matches the pattern used in many libraries (like iostream)*/

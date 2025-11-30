@@ -1,0 +1,2 @@
+Ravi was here!
+This file was opened using fstream with multiple modes.
